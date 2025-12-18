@@ -5,36 +5,38 @@ import { motion, AnimatePresence } from "framer-motion"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import Image from "next/image"
 
-const showcaseItems = [
+const showcaseItems = 
+[
   {
-    id: 1,
-    title: "Our School Director",
-    description: "Website solutions for all budgets",
-    subtext: "Select from our range of website options and design packages to suit any school budget.",
-    image: "/images/shi/drrr.jpeg",
+    "id": 1,
+    "title": "Our School Director",
+    "description": "Guiding the school's vision and growth.",
+    "subtext": "Providing leadership to ensure quality education and student success.",
+    "image": "/images/shi/drrr.jpeg"
   },
   {
-    id: 2,
-    title: "Our Teaching Staff",
-    description: "Engaging digital platforms",
-    subtext: "Create an impressive online presence that reflects your school's values and achievements.",
-    image: "/images/shi/drrx.jpeg",
+    "id": 2,
+    "title": "Our Teaching Staff",
+    "description": "Dedicated educators shaping young minds.",
+    "subtext": "Committed to delivering quality education and fostering student development.",
+    "image": "/images/new/staff.jpg"
   },
   {
-    id: 3,
-    title: "Our Administrators",
-    description: "Advanced educational platforms",
-    subtext: "Modern solutions for higher education institutions with advanced features and integrations.",
-    image: "/images/shi/dr.jpeg",
+    "id": 3,
+    "title": "Our Administrators",
+    "description": "Ensuring smooth school operations.",
+    "subtext": "Managing school affairs efficiently to support students and teachers.",
+    "image": "/images/shi/dr.jpeg"
   },
   {
-    id: 4,
-    title: "Pupils Life",
-    description: "Complete LMS solutions",
-    subtext: "Comprehensive learning management systems for educational institutions of all sizes.",
-    image: "/images/shi/gradz.jpeg",
-  },
+    "id": 4,
+    "title": "Pupils Life",
+    "description": "A vibrant and engaging school experience.",
+    "subtext": "Encouraging learning, creativity, and friendships in a supportive environment.",
+    "image": "/images/shi/gradz.jpeg"
+  }
 ]
+
 
 export default function WebsiteShowcase() {
   const [currentIndex, setCurrentIndex] = useState(0)

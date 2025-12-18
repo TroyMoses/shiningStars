@@ -32,12 +32,9 @@ export default function Home() {
       <ExploreBugema />
       <Events />
       <News />
-      {/* <SchoolsPage /> */}
-      {/* <Blog /> */}
-      <FeatureShowcase />
+      {/* <FeatureShowcase /> */}
       <Contact />
       <Whatsup />
-      {/* <Calender /> */}
       <ScrollToTop />
     </>
   );

@@ -3,7 +3,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { FaArrowRight } from "react-icons/fa"
-export const img = "/images/shin/hm.png";
+export const img = "/images/new/hm.png";
 
 export default function Welcome() {
   return (

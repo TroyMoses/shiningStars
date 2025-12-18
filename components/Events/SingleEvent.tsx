@@ -27,6 +27,10 @@ const SingleEvent = ({ post }: Props) => {
         <h3 className="mb-4 text-xl font-bold text-dark hover:text-primary dark:text-white dark:hover:text-primary">
           <Link href={`/events/${post._id}`}>{post.activity}</Link>
         </h3>
+        <p className="mb-4 border-b border-body-color border-opacity-10 pb-6 text-base font-medium text-body-color dark:border-white dark:border-opacity-10 "
+        >
+          {post.description.split(" ").slice(0, 20).join(" ")} ...
+        </p>
         <p className="mb-6 text-base text-body-color dark:text-gray-300">{post.status}</p>
         <div className="flex items-center justify-between">
           <div className="flex items-center">

@@ -22,8 +22,9 @@ const SingleNews = ({ post }: Props) => {
               {post.title}
           </Link>
         </h3>
-        <p className="mb-4 border-b border-body-color border-opacity-10 pb-6 text-base font-medium text-body-color dark:border-white dark:border-opacity-10">
-          {post.description}
+        
+        <p className="mb-4 border-b border-body-color border-opacity-10 pb-6 text-base font-medium text-body-color dark:border-white dark:border-opacity-10 line-clamp-2">
+        {post.description.split(" ").slice(0, 20).join(" ")} ...
         </p>
         <div className="flex items-center">
           <div className="mr-5 flex items-center border-r border-body-color border-opacity-10 pr-5 dark:border-white dark:border-opacity-10 xl:mr-3 xl:pr-3 2xl:mr-5 2xl:pr-5">
