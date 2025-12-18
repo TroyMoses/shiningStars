@@ -22,7 +22,7 @@
     "graphql-request": "^7.0.1",
     "lucide-react": "^0.473.0",
     "mongoose": "^8.5.1",
-    "next": "^14.2.3",
+    "next": "14.2.35",
     "next-themes": "^0.2.1",
     "nodemailer": "^6.9.14",
     "pnpm": "^9.1.4",
